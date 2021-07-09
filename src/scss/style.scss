@@ -13,9 +13,16 @@ body{
   font-family: 'TT Lakes Regular';
 }
 
+.wrapper{
+  position: relative;
+  overflow: hidden;
+}
+
 .main{
   background: $bgColor;
 }
+
+
 
 .line-section{
   height: 1px;
@@ -57,7 +64,6 @@ body{
 
   }
   .policy p{
-    //text-align: start;
     width: 40%;
   }
 }
@@ -104,4 +110,5 @@ body{
 @import "./components/swiper.css";
 @import "./components/sidebar.css";
 @import '~swiper/swiper-bundle.css';
+@import './components/order.css';
 

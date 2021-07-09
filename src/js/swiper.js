@@ -25,8 +25,6 @@ let arrow = document.querySelector('.arrow')
 
 document.addEventListener("click", function(e)
 {
-  console.log('menu', e.target);
-
   if(e.target.classList.contains("button-show__first")){
     swiperWrapperFirst.classList.contains('active') ? buttonShowTextFirst.innerHTML = 'Показать все' :
       buttonShowTextFirst.innerHTML = 'Скрыть';

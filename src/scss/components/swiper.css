@@ -133,10 +133,7 @@ h4:not(:first-child){
   margin-left: auto;
 }
 
-.button-order{
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
+.button-order, .order-button{
   background-color: #FF3E79;
   width : 119px;
   height: 32px;
@@ -144,6 +141,12 @@ h4:not(:first-child){
   border: none;
   color: #FFFFFF;
   font-weight: bold;
+}
+
+.button-order{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 .button-order img{

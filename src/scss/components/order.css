@@ -1,0 +1,87 @@
+.order {
+  width: 320px;
+  display: none;
+  flex-direction: column;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+  padding: 24px 16px;
+  z-index: 200;
+}
+
+.order .line-border{
+  top: 110px;
+}
+
+.order-title{
+  margin-top: 50px;
+}
+
+.order input, textarea{
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  width: 250px;
+  height: 42px;
+  margin-top: 24px;
+  padding: 12px 16px;
+}
+
+.textarea{
+  height: 118px;
+}
+
+.order p{
+  margin-top: 24px;
+}
+
+.order span {
+  color: #FF3E79;
+}
+
+.order-button{
+  margin-top: 20px;
+  margin-left: 170px;
+
+}
+
+.active-menu-order{
+  display: block;
+  height: 100vh;
+  position: fixed;
+  /*z-index: 200;*/
+  transition-duration: .2s;
+}
+
+@media screen and (min-width: 1440px){
+  .order{
+    /*display: block;*/
+    width: 440px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 200;
+  }
+
+  .order .icon{
+    position: absolute;
+    left: -70px;
+  }
+
+  .order .line-border{
+    top: 25px;
+  }
+
+  .order-title{
+    margin-top: 0px;
+  }
+
+  .order input, textarea{
+    width: 390px;
+    resize: none;
+  }
+
+  .order-button {
+    margin-left: 300px;
+  }
+}

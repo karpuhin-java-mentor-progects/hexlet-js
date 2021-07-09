@@ -1,6 +1,7 @@
 .overlay{
   background: #FFFFFF;
-  background: rgba(0,0,0,0.5);
+  mix-blend-mode: normal;
+  opacity: 0.96;
   position: fixed;
   top: 0;
   left: 0;
@@ -186,6 +187,12 @@ a {
     margin-top: 15px;
   }
 }
+@media screen and (min-width: 768px){
+  .contacts{
+    margin-top: 150px;
+  }
+}
+
 
 /*-------------------------------fonts------------------------------*/
 
