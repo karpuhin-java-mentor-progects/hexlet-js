@@ -46,15 +46,15 @@
   border-radius: 20px;
 }
 
-.icon-close{background-image: url("/src/img/block1/icon/icon-close.png");}
+.icon-close{background-image: url("/img/block1/icon/icon-close.png");}
 
-.icon-search{background-image: url("/src/img/block1/icon/icon-search.png");}
+.icon-search{background-image: url("/img/block1/icon/icon-search.png");}
 
-.icon-phone {background-image: url("/src/img/block1/icon/icon-phone.png");}
+.icon-phone {background-image: url("/img/block1/icon/icon-phone.png");}
 
-.icon-chat {background-image: url("/src/img/block1/icon/icon-chat.png");}
+.icon-chat {background-image: url("/img/block1/icon/icon-chat.png");}
 
-.icon-contacts {background-image: url("/src/img/block1/icon/icon-contacts.png");}
+.icon-contacts {background-image: url("/img/block1/icon/icon-contacts.png");}
 
 
 @keyframes rotate {
@@ -190,6 +190,12 @@ a {
 @media screen and (min-width: 768px){
   .contacts{
     margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 1140px){
+  .sidebar .icon-close{
+    visibility: hidden;
   }
 }
 

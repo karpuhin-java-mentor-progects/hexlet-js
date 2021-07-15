@@ -71,7 +71,7 @@ body{
 
 @media screen and (min-width: 1120px){
   .main{
-    max-width: 1120px;
+    //max-width: 1120px;
     margin: auto;
   }
   .proposal p {
@@ -83,12 +83,13 @@ body{
 @media screen and (min-width: 1440px){
   .sidebar{
     display: flex;
+    min-width: 320px;
   }
 
   .wrapper{
     display: flex;
     margin: auto;
-    max-width: 1440px;
+    //max-width: 1440px;
   }
 
   .header-right{
@@ -97,18 +98,28 @@ body{
 
   .services-title{
     position: absolute;
-    top: -80px;
+    top: -99px;
   }
 
   .line-border {
-    top: -55px;
+    top: -99px;
   }
 }
 
+@media screen and (min-width: 1600px){
+  .wrapper{
+    max-width: 1440px;
+  }
+
+  .main{
+    max-width: 1120px;
+  }
+}
 
 @import "./components/header.css";
 @import "./components/swiper.css";
 @import "./components/sidebar.css";
 @import '~swiper/swiper-bundle.css';
 @import './components/order.css';
+@import './components/tabs.css';
 

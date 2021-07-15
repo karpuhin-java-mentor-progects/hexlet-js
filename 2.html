@@ -9,36 +9,7 @@
 </head>
 <body>
 <div class="wrapper">
-  <div class="overlay">
-    <div class="order">
-      <div class="icon icon-close"></div>
-      <div class="line-border"></div>
-      <h2 class="order-title">Заказать звонок</h2>
-      <input type="text" placeholder="Телефон">
-
-      <p>Нажимая “отправить”, вы даете согласие на
-        <span>обработку персональных данных </span>
-        и соглашаетесь с нашей
-        <span>политикой конфиденциальности</span>
-      </p>
-      <button class="order-button">Заказать <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
-    </div>
-    <div class="order order-form">
-      <div class="icon icon-close"></div>
-      <div class="line-border"></div>
-      <h2 class="order-title">Заказать звонок</h2>
-      <input type="text" placeholder="Имя">
-      <input type="text" placeholder="Телефон">
-      <input type="text" placeholder="Електронная почта">
-      <textarea name="" placeholder="Сообщение"></textarea>
-      <p>Нажимая “отправить”, вы даете согласие на
-        <span>обработку персональных данных </span>
-        и соглашаетесь с нашей
-        <span>политикой конфиденциальности</span>
-      </p>
-      <button class="order-button">Отправить <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
-    </div>
-  </div>
+  <div class="overlay"></div>
   <div class="sidebar">
     <div class="container container-wide">
       <div class="icon icon-search"></div>
@@ -111,7 +82,34 @@
       </div>
     </div>
   </div>
+  <div class="order">
+    <div class="icon icon-close"></div>
+    <div class="line-border"></div>
+    <h2 class="order-title">Заказать звонок</h2>
+    <input type="text" placeholder="Телефон">
 
+    <p>Нажимая “отправить”, вы даете согласие на
+      <span>обработку персональных данных </span>
+      и соглашаетесь с нашей
+      <span>политикой конфиденциальности</span>
+    </p>
+    <button class="order-button">Заказать <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+  </div>
+  <div class="order order-form">
+    <div class="icon icon-close"></div>
+    <div class="line-border"></div>
+    <h2 class="order-title">Заказать звонок</h2>
+    <input type="text" placeholder="Имя">
+    <input type="text" placeholder="Телефон">
+    <input type="text" placeholder="Електронная почта">
+    <textarea name="" placeholder="Сообщение"></textarea>
+    <p>Нажимая “отправить”, вы даете согласие на
+      <span>обработку персональных данных </span>
+      и соглашаетесь с нашей
+      <span>политикой конфиденциальности</span>
+    </p>
+    <button class="order-button">Отправить <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+  </div>
   <div class="main">
     <header>
       <div class="header-right">
@@ -134,155 +132,58 @@
       <div class="line-border"></div>
       <section class="services">
         <h1 class="services-title">Услуги и сервисы</h1>
-          <div class="tabs">
-            <div class="tabs__nav tabs-nav">
-              <div class="tabs-nav__item is-active" data-tab-name="tab-1">Ремонтируемые бренды</div>
-              <div class="tabs-nav__item" data-tab-name="tab-2">Ремонтируемые устройства</div>
-              <div class="tabs-nav__item" data-tab-name="tab-3">Цены на услуги</div>
-              <div class="tabs-nav__item" data-tab-name="tab-4">Адреса сервисных центров</div>
-              <div class="tabs-nav__item" data-tab-name="tab-5">Специальные цены</div>
-            </div>
-            <div class="tabs__content">
-              <div class="tab is-active tab-1">
-                <div class="services-panel">
-                  <div class="services-panels_content">
-                    <div class="services-panels_block" style="position: relative">
-                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
-                      <p class="services-panels_text offset">
-                        Мы являемся авторизованным сервисным центром по
-                        ремонту техники Dell. Только у нас вы можете
-                        отремонтировать свой ноутбук Dell с официальной
-                        гарантией производителя.
-                      </p>
-                      <div class="services-panels_img">
-                        <img src="img/block1/icon/icon-more.png" alt="">
-                      </div>
-                      <b class="offset"><label for="button1">Читать далее</label></b>
-                      <input type="checkbox" id="button1">
-                      <p class="services-panels_text offset">
-                        Мы успешно работаем с 1992 года
-                        и заслужили репутацию надежного партнера,
-                        что подтверждает большое количичество постоянных
-                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
-                        в свою очередь, советуют нас рдным и близким
-                      </p>
-                    </div>
-                  </div>
-                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
+        <div class="services-content">
+          <nav class="services-content_list offset">
+            <ul>
+              <li class="services-content_list__item">
+                <input type="radio" name="tab-set" id="brand" checked>
+                <label for="brand">Ремонтируемые бренды</label>
+              </li>
+              <li class="services-content_list__item">
+                <input type="radio" name="tab-set" id="devices" a>
+                <label for="devices">Ремонтируемые устройства</label>
+              </li>
+              <li class="services-content_list__item">
+                <input type="radio" name="tab-set" id="price_services">
+                <label for="price_services">Цены на услуги</label>
+              </li>
+              <li class="services-content_list__item">
+                <input type="radio" name="tab-set" id="Address">
+                <label for="Address">Адреса сервисных центров</label>
+              </li>
+              <li class="services-content_list__item">
+                <input type="radio" name="tab-set" id="special_prices">
+                <label for="special_prices">Специальные цены</label>
+              </li>
+            </ul>
+          </nav>
+          <section class="services-panel">
+            <div class="services-panels_content">
+              <div class="services-panels_block" style="position: relative">
+                <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
+                <p class="services-panels_text offset">
+                  Мы являемся авторизованным сервисным центром по
+                  ремонту техники Dell. Только у нас вы можете
+                  отремонтировать свой ноутбук Dell с официальной
+                  гарантией производителя.
+                </p>
+                <div class="services-panels_img">
+                  <img src="img/block1/icon/icon-more.png" alt="">
                 </div>
-              </div>
-              <div class="tab tab-2">
-                <div class="services-panel">
-                  <div class="services-panels_content">
-                    <div class="services-panels_block" style="position: relative">
-                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
-                      <p class="services-panels_text offset">
-                        Только у нас вы можете
-                        отремонтировать свой ноутбук Dell с официальной
-                        гарантией производителя.
-                      </p>
-                      <div class="services-panels_img">
-                        <img src="img/block1/icon/icon-more.png" alt="">
-                      </div>
-                      <b class="offset"><label for="button2">Читать далее</label></b>
-                      <input type="checkbox" id="button2">
-                      <p class="services-panels_text offset">
-                        Мы успешно работаем с 1992 года
-                        и заслужили репутацию надежного партнера,
-                        что подтверждает большое количичество постоянных
-                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
-                        в свою очередь, советуют нас рдным и близким
-                      </p>
-                    </div>
-                  </div>
-                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
-                </div>
-              </div>
-              <div class="tab tab-3">
-                <div class="services-panel">
-                  <div class="services-panels_content">
-                    <div class="services-panels_block" style="position: relative">
-                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
-                      <p class="services-panels_text offset">
-                        Мы являемся авторизованным сервисным центром по
-                        ремонту техники Dell. Только у нас вы можете
-                        отремонтировать свой ноутбук Dell с официальной
-                        гарантией производителя.
-                      </p>
-                      <div class="services-panels_img">
-                        <img src="img/block1/icon/icon-more.png" alt="">
-                      </div>
-                      <b class="offset"><label for="button3">Читать далее</label></b>
-                      <input type="checkbox" id="button3">
-                      <p class="services-panels_text offset">
-                        Мы успешно работаем с 1992 года
-                        и заслужили репутацию надежного партнера,
-                        что подтверждает большое количичество постоянных
-                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
-                        в свою очередь, советуют нас рдным и близким
-                      </p>
-                    </div>
-                  </div>
-                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
-                </div>
-              </div>
-              <div class="tab tab-4">
-                <div class="services-panel">
-                  <div class="services-panels_content">
-                    <div class="services-panels_block" style="position: relative">
-                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
-                      <p class="services-panels_text offset">
-                       Только у нас вы можете
-                        отремонтировать свой ноутбук Dell с официальной
-                        гарантией производителя.
-                      </p>
-                      <div class="services-panels_img">
-                        <img src="img/block1/icon/icon-more.png" alt="">
-                      </div>
-                      <b class="offset"><label for="button4">Читать далее</label></b>
-                      <input type="checkbox" id="button4">
-                      <p class="services-panels_text offset">
-                        Мы успешно работаем с 1992 года
-                        и заслужили репутацию надежного партнера,
-                        что подтверждает большое количичество постоянных
-                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
-                        в свою очередь, советуют нас рдным и близким
-                      </p>
-                    </div>
-                  </div>
-                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
-                </div>
-              </div>
-              <div class="tab tab-5">
-                <div class="services-panel">
-                  <div class="services-panels_content">
-                    <div class="services-panels_block" style="position: relative">
-                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
-                      <p class="services-panels_text offset">
-                        Мы являемся авторизованным сервисным центром по
-                        ремонту техники Dell. Только у нас вы можете
-                        отремонтировать свой ноутбук Dell с официальной
-                        гарантией производителя.
-                      </p>
-                      <div class="services-panels_img">
-                        <img src="img/block1/icon/icon-more.png" alt="">
-                      </div>
-                      <b class="offset"><label for="button5">Читать далее</label></b>
-                      <input type="checkbox" id="button5">
-                      <p class="services-panels_text offset">
-                        Мы успешно работаем с 1992 года
-                        и заслужили репутацию надежного партнера,
-                        что подтверждает большое количичество постоянных
-                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
-                        в свою очередь, советуют нас рдным и близким
-                      </p>
-                    </div>
-                  </div>
-                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
-                </div>
+                <b class="offset"><label for="button">Читать далее</label></b>
+                <input type="checkbox" id="button">
+                <p class="services-panels_text offset">
+                  Мы успешно работаем с 1992 года
+                  и заслужили репутацию надежного партнера,
+                  что подтверждает большое количичество постоянных
+                  клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                  в свою очередь, советуют нас рдным и близким
+                </p>
               </div>
             </div>
-          </div>
+            <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
+          </section>
+        </div>
       </section>
     </main>
     <div class="line-section"></div>
@@ -488,3 +389,39 @@
 
 </body>
 </html>
+
+
+
+
+<div class="wrapper">
+
+  <div class="main">
+    <main>
+      <div class="line-border"></div>
+      <section class="services">
+        <h1 class="services-title">Услуги и сервисы</h1>
+        <div class="wrapper">
+          <div class="tabs">
+            <div class="tabs__nav tabs-nav">
+              <div class="tabs-nav__item is-active" data-tab-name="tab-1">Таб 1</div>
+              <div class="tabs-nav__item" data-tab-name="tab-2">Таб 2</div>
+              <div class="tabs-nav__item" data-tab-name="tab-3">Таб 3</div>
+            </div>
+            <div class="tabs__content">
+              <div class="tab is-active tab-1">
+                Содержание таба 1
+              </div>
+              <div class="tab tab-2">
+                Содержание таба 2
+              </div>
+              <div class="tab tab-3">
+                Содержание таба 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+</div>

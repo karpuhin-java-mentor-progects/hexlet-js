@@ -107,14 +107,14 @@ h4:not(:first-child){
   background-size: contain;
 }
 
-.brand-logo__lenovo{background-image: url("/src/img/block2/brands/lenovo.png");}
-.brand-logo__samsung{background-image: url("/src/img/block2/brands/samsung.png");}
-.brand-logo__apple{background-image: url("/src/img/block2/brands/apple.png");}
-.brand-logo__acer{background-image: url("/src/img/block2/brands/acer.png");}
-.brand-logo__bosch{background-image: url("/src/img/block2/brands/bosch.png");}
-.brand-logo__hp{background-image: url("/src/img/block2/brands/hp.png");}
-.brand-logo__sony{background-image: url("/src/img/block2/brands/sony.png");}
-.brand-logo__viewSonic{background-image: url("/src/img/block2/brands/viewSonic.png");}
+.brand-logo__lenovo{background-image: url("/img/block2/brands/lenovo.png");}
+.brand-logo__samsung{background-image: url("/img/block2/brands/samsung.png");}
+.brand-logo__apple{background-image: url("/img/block2/brands/apple.png");}
+.brand-logo__acer{background-image: url("/img/block2/brands/acer.png");}
+.brand-logo__bosch{background-image: url("/img/block2/brands/bosch.png");}
+.brand-logo__hp{background-image: url("/img/block2/brands/hp.png");}
+.brand-logo__sony{background-image: url("/img/block2/brands/sony.png");}
+.brand-logo__viewSonic{background-image: url("/img/block2/brands/viewSonic.png");}
 
 .brand-logo__bosch, .brand-logo__viewSonic, .brand-logo__sony{margin-top: 10px;}
 
@@ -126,7 +126,8 @@ h4:not(:first-child){
   border-radius: 20px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-image: url("/src/img/block2/brands/dropdown.png");
+  background-image: url("/img/block2/brands/dropdown.png");
+  cursor: pointer;
 }
 
 .brands-button__repair{
@@ -141,6 +142,7 @@ h4:not(:first-child){
   border: none;
   color: #FFFFFF;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .button-order{

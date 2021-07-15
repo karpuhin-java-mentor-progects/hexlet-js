@@ -53,6 +53,14 @@
   transition-duration: .2s;
 }
 
+.active-menu{
+  display: block;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  transition-duration: .2s;
+}
+
 @media screen and (min-width: 1440px){
   .order{
     /*display: block;*/
