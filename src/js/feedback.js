@@ -5,7 +5,8 @@ const orderForm = document.querySelector('.order-form');
 
 document.addEventListener('click', function (e){
   if(e.target.className === 'icon icon-phone' || e.target.className === "header-icon icon-phone icon-hidden"
-    || e.target.className === 'header-icon icon-setting' || e.target.className === 'button-order'){
+    || e.target.className === 'header-icon icon-setting' || e.target.className === 'button-order'
+  || e.target.className === 'proposal__get'){
     order.classList.add('active-menu');
     overlay.classList.add('overlay-active');
   }
