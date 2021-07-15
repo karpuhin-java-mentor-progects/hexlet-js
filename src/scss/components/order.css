@@ -1,5 +1,4 @@
 .order {
-  width: 320px;
   display: none;
   flex-direction: column;
   height: auto;
@@ -53,6 +52,18 @@
   transition-duration: .2s;
 }
 
+
+
+@media screen and (min-width: 760px){
+  .order{
+    /*display: block;*/
+    width: 440px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 200;
+  }
+}
 .active-menu{
   display: block;
   height: 100vh;
@@ -62,14 +73,6 @@
 }
 
 @media screen and (min-width: 1440px){
-  .order{
-    /*display: block;*/
-    width: 440px;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 200;
-  }
 
   .order .icon{
     position: absolute;

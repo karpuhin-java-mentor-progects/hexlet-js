@@ -3,7 +3,7 @@ const overlay = document.querySelector('.overlay');
 
 document.addEventListener('click', function (e){
   if(e.target.className === 'header-icon icon-menu'){
-    // sideBar.classList.add('active-menu');
+    sideBar.classList.add('active-menu');
     overlay.classList.add('overlay-active')
   }
 
