@@ -11,6 +11,7 @@ document.addEventListener('click', function (e){
   }
 
   if(e.target.className === 'icon icon-close' || e.target.className === 'overlay overlay-active'){
+    // order.classList.remove('active-menu')
     overlay.classList.remove('overlay-active');
   }
 
