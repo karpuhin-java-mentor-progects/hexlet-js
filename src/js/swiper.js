@@ -1,9 +1,27 @@
 import Swiper from 'swiper';
 
+// const swiper = new Swiper('.swiper-container', {
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+//
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+// });
+
+
 const swiper = new Swiper('.swiper-container', {
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
+    // clickable: true,
+
   },
 
   navigation: {
