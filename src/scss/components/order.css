@@ -6,6 +6,7 @@
   box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
   padding: 24px 16px;
   z-index: 200;
+  max-width: 440px;
 }
 
 .order .line-border{
@@ -57,7 +58,7 @@
 @media screen and (min-width: 760px){
   .order{
     /*display: block;*/
-    width: 440px;
+    max-width: 440px;
     right: 0;
     bottom: 0;
     top: 0;

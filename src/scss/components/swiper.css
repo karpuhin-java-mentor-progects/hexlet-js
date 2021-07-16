@@ -65,9 +65,6 @@ h4:not(:first-child){
   padding: 8px;
   margin: 8px;
 }
-.swiper-slide__customs{
-  /*max-height: 72px;*/
-}
 
 .swiper-slide__repair{
   min-height: 160px;

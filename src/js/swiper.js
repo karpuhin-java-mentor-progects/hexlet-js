@@ -17,7 +17,7 @@ import Swiper from 'swiper';
 // });
 
 
-const swiper = new Swiper('.swiper-container', {
+ new Swiper('.swiper-container', {
   pagination: {
     el: ".swiper-pagination",
     // clickable: true,
