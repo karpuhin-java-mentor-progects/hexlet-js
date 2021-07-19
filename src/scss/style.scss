@@ -22,7 +22,9 @@ body{
   background: $bgColor;
 }
 
-
+.active-read{
+  max-height: 1000px;
+}
 
 .line-section{
   height: 1px;
@@ -89,6 +91,7 @@ body{
   .wrapper{
     display: flex;
     margin: auto;
+    z-index: 1;
     //max-width: 1440px;
   }
 

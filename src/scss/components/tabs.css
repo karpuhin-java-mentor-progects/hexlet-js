@@ -100,6 +100,15 @@
   padding: 10px 16px;
 }
 
+.read-btn{
+  cursor: pointer;
+  /*display: none;*/
+}
+
+.text_hidden{
+  max-height: 170px;
+  overflow: hidden;
+}
 
 
 [type="checkbox"]:checked + p:nth-child(3n) {

@@ -175,7 +175,6 @@ h4:not(:first-child){
 
 .active{
   max-height: 1000px;
-
 }
 .transformArrowImage{
   transform: rotate(180deg);

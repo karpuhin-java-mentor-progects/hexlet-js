@@ -26,3 +26,61 @@ let tab = function () {
 
 
 tab();
+
+
+
+import Swiper from 'swiper';
+
+// const swiper = new Swiper('.swiper-container', {
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+//
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+// });
+
+
+new Swiper('.swiper-container', {
+  pagination: {
+    el: ".swiper-pagination",
+    // clickable: true,
+
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+
+
+const readBtn = document.querySelector('.read-btn')
+const textHidden = document.querySelector('.text_hidden')
+document.addEventListener("click", function(e)
+{
+  if(e.target.classList.contains("read-btn")){
+    console.log('br')
+
+    textHidden.classList.contains('active-read') ? readBtn.innerHTML = 'Читать далее' :
+      readBtn.innerHTML = 'Скрыть';
+
+
+    textHidden.classList.toggle('active-read')
+  }
+
+});
+
+
