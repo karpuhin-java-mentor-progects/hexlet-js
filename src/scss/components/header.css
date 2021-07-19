@@ -34,22 +34,22 @@ header{
   border: none;
 }
 
-.icon-menu{background-image: url("/img/block1/icon/icon-menu.png");}
+.icon-menu{background-image: url("../../img/block1/icon/icon-menu.png");}
 
-.icon-setting{background-image: url("/img/block1/icon/icon-setting.png");}
+.icon-setting{background-image: url("../../img/block1/icon/icon-setting.png");}
 
-.icon-search{background-image: url("/img/block1/icon/icon-search.png");}
+.icon-search{background-image: url("../../img/block1/icon/icon-search.png");}
 
-.icon-phone {background-image: url("/img/block1/icon/icon-phone.png");}
+.icon-phone {background-image: url("../../img/block1/icon/icon-phone.png");}
 
-.icon-chat {background-image: url("/img/block1/icon/icon-chat.png");}
+.icon-chat {background-image: url("../../img/block1/icon/icon-chat.png");}
 
-.icon-contacts {background-image: url("/img/block1/icon/icon-contacts.png");}
+.icon-contacts {background-image: url("../../img/block1/icon/icon-contacts.png");}
 
 .header-logo{
   width: 98px;
   height: 50px;
-  background-image: url("/img/block1/logo.png");
+  background-image: url("../../img/block1/logo.png");
 }
 
 .header-icon:hover{
