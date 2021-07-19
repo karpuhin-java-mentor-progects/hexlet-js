@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Задание для определения уровня знаний верстки</title>
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<link href="style.css" rel="stylesheet"></head>
+<body>
+<div class="wrapper">
+  <div class="overlay">
+    <div class="order">
+      <div class="icon icon-close"></div>
+      <div class="line-border"></div>
+      <h2 class="order-title">Заказать звонок</h2>
+      <input type="text" placeholder="Телефон">
+
+      <p>Нажимая “отправить”, вы даете согласие на
+        <span>обработку персональных данных </span>
+        и соглашаетесь с нашей
+        <span>политикой конфиденциальности</span>
+      </p>
+      <button class="order-button">Заказать <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+    </div>
+    <div class="order order-form">
+      <div class="icon icon-close"></div>
+      <div class="line-border"></div>
+      <h2 class="order-title">Заказать звонок</h2>
+      <input type="text" placeholder="Имя">
+      <input type="text" placeholder="Телефон">
+      <input type="text" placeholder="Електронная почта">
+      <textarea name="" placeholder="Сообщение"></textarea>
+      <p>Нажимая “отправить”, вы даете согласие на
+        <span>обработку персональных данных </span>
+        и соглашаетесь с нашей
+        <span>политикой конфиденциальности</span>
+      </p>
+      <button class="order-button">Отправить <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="container container-wide">
+      <div class="icon icon-search"></div>
+      <img src="/src/img/block1//logo.png" width="66" height="35" class="logo" alt="logo">
+      <div class="icon icon-close"></div>
+    </div>
+    <nav class="container navigation">
+      <ul class="list">
+        <li class="item">
+          <input type="radio" name="tab-set" id="repair" checked="checked">
+          <label for="repair">Ремонт техники</label>
+        </li>
+        <li class="item">
+          <input type="radio" name="tab-set" id="services">
+          <label for="services">Услуги и сервисы</label>
+        </li>
+        <li class="item">
+          <input type="radio" name="tab-set" id="corporate">
+          <label for="corporate">Корпоративным клиентам</label>
+        </li>
+        <li class="item">
+          <input type="radio" name="tab-set" id="sellers">
+          <label for="sellers">Продавцам техники</label>
+        </li>
+        <li class="item">
+          <input type="radio" name="tab-set" id="partners">
+          <label for="partners">Партнерам</label>
+        </li>
+        <li class="item">
+          <input type="radio" name="tab-set" id="manufacturers">
+          <label for="manufacturers">Производителям</label>
+        </li>
+        <li class="item">
+          <input type="radio" name="tab-set" id="price">
+          <label for="price">Наши сервисные центры</label>
+        </li>
+        <li class="item">
+          <input type="radio" name="tab-set" id="contacts">
+          <label for="contacts">Контакты</label>
+        </li>
+      </ul>
+    </nav>
+    <div class="contacts">
+      <div class="container contacts-list">
+        <div class="icon icon-phone"></div>
+        <div class="icon icon-chat"></div>
+        <div class="icon icon-contacts"></div>
+      </div>
+      <div class="container mail">
+        <a href="mailto:mail@cps.com">mail@cps.com</a>
+      </div>
+      <div class="container phone">
+        <a href="tel:8 800 890 8900">8 800 890 8900</a>
+      </div>
+      <div class="container">
+        <ul class="list language-list">
+          <li class="list-item">
+            <input type="radio" name="tab-set-language" id="russia" checked="checked">
+            <label for="russia">Ru</label>
+          </li>
+          <li class="list-item">
+            <input type="radio" name="tab-set-language" id="english">
+            <label for="english">En</label>
+          </li>
+          <li class="list-item">
+            <input type="radio" name="tab-set-language" id="china">
+            <label for="china">Ch</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <header>
+      <div class="header-right">
+        <div class="header-icon icon-menu"></div>
+        <div class="header-logo"></div>
+        <div class="header-line"></div>
+      </div>
+      <div class="header-left">
+        <div class="header-icon icon-phone icon-hidden"></div>
+        <div class="header-icon icon-chat icon-hidden"></div>
+        <div class="header-icon icon-contacts icon-hidden"></div>
+        <div class="header-line icon-hidden"></div>
+        <div class="text-hidden">Оставить заявку</div>
+        <div class="header-icon icon-setting"></div>
+        <div class="text-hidden">Статус ремонта</div>
+        <div class="header-icon icon-search"></div>
+      </div>
+    </header>
+    <main>
+      <div class="line-border"></div>
+      <section class="services">
+        <h1 class="services-title">Услуги и сервисы</h1>
+          <div class="tabs">
+            <div class="tabs__nav tabs-nav">
+              <div class="tabs-nav__item is-active" data-tab-name="tab-1">Ремонтируемые бренды</div>
+              <div class="tabs-nav__item" data-tab-name="tab-2">Ремонтируемые устройства</div>
+              <div class="tabs-nav__item" data-tab-name="tab-3">Цены на услуги</div>
+              <div class="tabs-nav__item" data-tab-name="tab-4">Адреса сервисных центров</div>
+              <div class="tabs-nav__item" data-tab-name="tab-5">Специальные цены</div>
+            </div>
+            <div class="tabs__content">
+              <div class="tab is-active tab-1">
+                <div class="services-panel">
+                  <div class="services-panels_content">
+                    <div class="services-panels_block" style="position: relative">
+                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
+                      <p class="services-panels_text offset">
+                        Мы являемся авторизованным сервисным центром по
+                        ремонту техники Dell. Только у нас вы можете
+                        отремонтировать свой ноутбук Dell с официальной
+                        гарантией производителя.
+                      </p>
+                      <div class="services-panels_img">
+                        <img src="img/block1/icon/icon-more.png" alt="">
+                      </div>
+                      <b class="offset read-btn"><label for="button1">Читать далее</label></b>
+
+                      <input type="checkbox" id="button1">
+                      <p class="services-panels_text text_hidden offset">
+                        Мы успешно работаем с 1992 года
+                        и заслужили репутацию надежного партнера,
+                        что подтверждает большое количичество постоянных
+                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                        в свою очередь, советуют нас рдным и близким
+
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количичество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас рдным и близким
+
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количичество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас рдным и близким
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количичество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас рдным и близким
+
+                      </p>
+                    </div>
+                  </div>
+                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
+                </div>
+              </div>
+              <div class="tab tab-2">
+                <div class="services-panel">
+                  <div class="services-panels_content">
+                    <div class="services-panels_block" style="position: relative">
+                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
+                      <p class="services-panels_text offset">
+                        Только у нас вы можете
+                        отремонтировать свой ноутбук Dell с официальной
+                        гарантией производителя.
+                      </p>
+                      <div class="services-panels_img">
+                        <img src="img/block1/icon/icon-more.png" alt="">
+                      </div>
+                      <b class="offset read-btn"><label for="button2">Читать далее</label></b>
+                      <input type="checkbox" id="button2">
+                      <p class="services-panels_text text_hidden offset">
+                        Мы успешно работаем с 1992 года
+                        и заслужили репутацию надежного партнера,
+                        что подтверждает большое количичество постоянных
+                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                        в свою очередь, советуют нас рдным и близким
+
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количичество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас рдным и близким
+
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количичество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас рдным и близким
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количичество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас рдным и близким
+                      </p>
+                    </div>
+                  </div>
+                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
+                </div>
+              </div>
+              <div class="tab tab-3">
+                <div class="services-panel">
+                  <div class="services-panels_content">
+                    <div class="services-panels_block" style="position: relative">
+                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
+                      <p class="services-panels_text offset">
+                        Мы являемся авторизованным сервисным центром по
+                        ремонту техники Dell. Только у нас вы можете
+                        отремонтировать свой ноутбук Dell с официальной
+                        гарантией производителя.
+                      </p>
+                      <div class="services-panels_img">
+                        <img src="img/block1/icon/icon-more.png" alt="">
+                      </div>
+                      <b class="offset"><label for="button3">Читать далее</label></b>
+                      <input type="checkbox" id="button3">
+                      <p class="services-panels_text offset">
+                        Мы успешно работаем с 1992 года
+                        и заслужили репутацию надежного партнера,
+                        что подтверждает большое количичество постоянных
+                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                        в свою очередь, советуют нас рдным и близким
+                      </p>
+                    </div>
+                  </div>
+                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
+                </div>
+              </div>
+              <div class="tab tab-4">
+                <div class="services-panel">
+                  <div class="services-panels_content">
+                    <div class="services-panels_block" style="position: relative">
+                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
+                      <p class="services-panels_text offset">
+                       Только у нас вы можете
+                        отремонтировать свой ноутбук Dell с официальной
+                        гарантией производителя.
+                      </p>
+                      <div class="services-panels_img">
+                        <img src="img/block1/icon/icon-more.png" alt="">
+                      </div>
+                      <b class="offset"><label for="button4">Читать далее</label></b>
+                      <input type="checkbox" id="button4">
+                      <p class="services-panels_text offset">
+                        Мы успешно работаем с 1992 года
+                        и заслужили репутацию надежного партнера,
+                        что подтверждает большое количичество постоянных
+                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                        в свою очередь, советуют нас рдным и близким
+                      </p>
+                    </div>
+                  </div>
+                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
+                </div>
+              </div>
+              <div class="tab tab-5">
+                <div class="services-panel">
+                  <div class="services-panels_content">
+                    <div class="services-panels_block" style="position: relative">
+                      <h3 class="services-panels_title text-hidden offset">Отзывы</h3>
+                      <p class="services-panels_text offset">
+                        Мы являемся авторизованным сервисным центром по
+                        ремонту техники Dell. Только у нас вы можете
+                        отремонтировать свой ноутбук Dell с официальной
+                        гарантией производителя.
+                      </p>
+                      <div class="services-panels_img">
+                        <img src="img/block1/icon/icon-more.png" alt="">
+                      </div>
+                      <b class="offset"><label for="button5">Читать далее</label></b>
+                      <input type="checkbox" id="button5">
+                      <p class="services-panels_text offset">
+                        Мы успешно работаем с 1992 года
+                        и заслужили репутацию надежного партнера,
+                        что подтверждает большое количичество постоянных
+                        клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и,
+                        в свою очередь, советуют нас рдным и близким
+                      </p>
+                    </div>
+                  </div>
+                  <img class="services-panel_banner" src="img/block1/banner/banner.png" alt="banner">
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <div class="line-section"></div>
+    <div class="swiper-container">
+      <div class="swiper-header">
+        <p>Ремонт техники различных брендов</p>
+      </div>
+      <div class="swiper-wrapper swiper-wrapper__brands">
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__samsung"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__apple"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__bosch"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__hp"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__acer"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__viewSonic"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__sony"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__lenovo"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__samsung"></div>
+          <div class="brands-button"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__customs">
+          <div class="brand-logo brand-logo__apple"></div>
+          <div class="brands-button"></div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="button-show">
+      <img class="arrow" src="img/block2/brands/toggle-icon.png" alt=""> <span class="button-show__first">Показать еще</span>
+    </div>
+    <div class="line-section"></div>
+    <div class="swiper-container">
+      <div class="swiper-header">
+        <p>Ремонт различных видов техники</p>
+      </div>
+      <div class="swiper-wrapper wiper-wrapper__repair">
+        <div class="swiper-slide swiper-slide__repair">
+          <div class="">Ремонт ноутбуков</div>
+          <div class="brands-button brands-button__repair"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__repair">
+          <div class="">Ремонт планшетов</div>
+          <div class="brands-button brands-button__repair"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__repair">
+          <div class="">Ремонт ПК</div>
+          <div class="brands-button brands-button__repair"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__repair">
+          <div class="">Ремонт мониторов</div>
+          <div class="brands-button brands-button__repair"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__repair">
+          <div class="">Ремонт ноутбуков</div>
+          <div class="brands-button brands-button__repair"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__repair">
+          <div class="">Ремонт планшетов</div>
+          <div class="brands-button brands-button__repair"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__repair">
+          <div class="">Ремонт ПК</div>
+          <div class="brands-button brands-button__repair"></div>
+        </div>
+        <div class="swiper-slide swiper-slide__repair">
+          <div class="">Ремонт мониторов</div>
+          <div class="brands-button brands-button__repair"></div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="button-show button-show-second">
+      <img class="arrow" src="img/block2/brands/toggle-icon.png" alt=""> <span class="button-show__second">Показать еще</span>
+    </div>
+    <div class="line-section"></div>
+    <div class="swiper-container">
+      <div class="swiper-header">
+        <p>Цены на услуги</p>
+      </div>
+      <div class="swiper-header__price">
+        <p>Ремонтные услуги</p>
+        <p>Цена</p>
+        <p>Срок</p>
+      </div>
+      <div class="swiper-wrapper swiper-wrapper__price">
+        <div class="swiper-slide swiper-slide__price">
+          <div class="">
+            <h4>Ремонтные услуги</h4>
+            <p>Тестирование с выдачей технического заключения</p>
+          </div>
+          <div class="">
+            <h4>Цена</h4>
+            <p>Бесплатно</p>
+          </div>
+          <div class="">
+            <h4>Срок</h4>
+            <p>30-120 мин.</p>
+          </div>
+          <button class="button-order">Заказать <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+        </div>
+        <div class="swiper-slide swiper-slide__price">
+          <div class="">
+            <h4>Ремонтные услуги</h4>
+            <p>Замена дисплея</p>
+          </div>
+          <div class="">
+            <h4>Цена</h4>
+            <p>1000</p>
+          </div>
+          <div class="">
+            <h4>Срок</h4>
+            <p>30-120 мин.</p>
+          </div>
+          <button class="button-order">Заказать <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+        </div>
+        <div class="swiper-slide swiper-slide__price">
+          <div class="">
+            <h4>Ремонтные услуги</h4>
+            <p>Замена полифонического динамика</p>
+          </div>
+          <div class="">
+            <h4>Цена</h4>
+            <p>1000</p>
+          </div>
+          <div class="">
+            <h4>Срок</h4>
+            <p>30-120 мин.</p>
+          </div>
+          <button class="button-order">Заказать <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+        </div>
+        <div class="swiper-slide swiper-slide__price">
+          <div class="">
+            <h4>Ремонтные услуги</h4>
+            <p>Замена полифонического динамика</p>
+          </div>
+          <div class="">
+            <h4>Цена</h4>
+            <p>1000</p>
+          </div>
+          <div class="">
+            <h4>Срок</h4>
+            <p>30-120 мин.</p>
+          </div>
+          <button class="button-order">Заказать <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+        </div>
+        <div class="swiper-slide swiper-slide__price">
+          <div class="">
+            <h4>Ремонтные услуги</h4>
+            <p>Замена полифонического динамика</p>
+          </div>
+          <div class="">
+            <h4>Цена</h4>
+            <p>1000</p>
+          </div>
+          <div class="">
+            <h4>Срок</h4>
+            <p>30-120 мин.</p>
+          </div>
+          <button class="button-order">Заказать <img src="img/block1/icon/dropdown.png" alt="dropdown"></button>
+        </div>
+      </div>
+    </div>
+    <div class="proposal">
+      <p>
+        Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.
+      </p>
+      <span class="proposal__get">Получить коммерческое предложение</span>
+      <img src="img/block1/icon/arrow-down.png" alt="dropdown">
+    </div>
+    <div class="line-section"></div>
+    <div class="policy">
+      
+      <p>© 2019 CPS Разработано командой Apesong</p>
+      <p>Политика конфиденциальности</p>
+      <p>Информация, размещенная на данной странице, не является публичной офертой</p>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
